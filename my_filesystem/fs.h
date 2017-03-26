@@ -6,8 +6,8 @@
 #define MaxFileSize (MaxBlkPerFile*BlkSize) //最大文件8kb
 #define BuffSize MaxFileSize
 #define DiskSize (BlkSize*BlkNum + InodeNum*sizeof(Inode) + sizeof(SuperBlk))//1177608
-#define RootUser "lshaluminum"
-#define PassWord "lshaluminum"
+#define RootUser "test"
+#define PassWord "test"
 #define CommandNum (sizeof(command)/sizeof(char*))
 #define DISK "Disk"
 #define SuperBlkBase 0
